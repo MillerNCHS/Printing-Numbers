@@ -9,13 +9,11 @@
 (function(){
   var initial = "# Your Name\n" +
     "# The Date\n" +
-    "# Create three columns of the top 5 selling videogames of all-time\n" +
-    "print(&quot;{:20}{:&gt;15}{:&gt;20}&quot;.format(&quot;Game&quot;, &quot;Sales (In Millions)&quot;, &quot;Platform&quot;))\n" +
-    "print(&quot;{:20}{:&gt;10}{:&gt;30}&quot;.format(&quot;Minecraft&quot;,238,&quot;Multi-platform&quot;))\n" +
-    "print(&quot;{:20}{:&gt;10}{:&gt;30}&quot;.format(&quot;Grand Theft Auto V&quot;,168,&quot;Multi-platform&quot;))\n" +
-    "print(&quot;{:20}{:&gt;10}{:&gt;30}&quot;.format(&quot;Tetris (EA)&quot;,100,&quot;Mobile&quot;))\n" +
-    "print(&quot;{:20}{:&gt;10}{:&gt;30}&quot;.format(&quot;Wii Sports&quot;,82.9,&quot;Nintendo Wii&quot;))\n" +
-    "print(&quot;{:20}{:&gt;10}{:&gt;30}&quot;.format(&quot;PUBG&quot;,75,&quot;Multi-platform&quot;))";
+    "# Print the numbers 1, 3, 4, and 4.25 in order\n" +
+    "print(17%4)\n" +
+    "print(6-3)\n" +
+    "print(17//4)\n" +
+    "print(17.0/4)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
